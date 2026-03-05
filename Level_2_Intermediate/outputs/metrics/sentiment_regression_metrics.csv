@@ -1,0 +1,2 @@
+dataset,feature,target,coefficient,intercept,r2_score,mse
+sentiment,Retweets,Likes,1.991138329078657,0.06725730993601076,0.9978730690407323,0.43674183185404547

@@ -1,0 +1,2 @@
+dataset,feature,target,coefficient,intercept,r2_score,mse
+churn,total_day_minutes,total_day_charge,0.16999990769756987,0.0005663574898626678,0.9999999018196307,8.616309438104728e-06
