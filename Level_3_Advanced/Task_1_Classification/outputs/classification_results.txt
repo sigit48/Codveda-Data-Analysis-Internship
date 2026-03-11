@@ -1,7 +1,0 @@
-FINAL CLASSIFICATION REPORT
-==============================
-Logistic Regression: 0.8502
-Decision Tree: 0.9101
-Random Forest: 0.9438
-
-Best RF Params: {'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}
