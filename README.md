@@ -305,41 +305,39 @@ The dashboard includes interactive filters allowing users to explore:
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
+
+```text
 Codveda-Data-Analysis-Internship
 │
 ├── Level_1_Foundation
-│ ├── Data
-│ │ ├── Raw
-│ │ └── Processed
-│ │
-│ ├── Task_1_Cleaning
-│ │ └── scripts
-│ │
-│ └── Task_2_EDA
-│ ├── scripts
-│ └── eda_outputs
+│   ├── Data
+│   │   ├── Raw
+│   │   └── Processed
+│   ├── Task_1_Cleaning
+│   │   └── scripts
+│   └── Task_2_EDA
+│       ├── scripts
+│       └── eda_outputs
 │
 ├── Level_2_Intermediate
-│ ├── Task_1_Regression
-│ │ ├── scripts
-│ │ └── outputs
-│ │
-│ └── Task_3_Clustering
-│ ├── scripts
-│ └── outputs
+│   ├── Task_1_Regression
+│   │   ├── scripts
+│   │   └── outputs
+│   └── Task_3_Clustering
+│       ├── scripts
+│       └── outputs
 │
 ├── Level_3_Advanced
-│ ├── Task_1_Classification
-│ │ ├── scripts
-│ │ └── outputs
-│ │
-│ └── Task_2_Dashboard
-│ ├── powerbi_dashboard.pbix
-│ └── dashboard_screenshots
+│   ├── Task_1_Classification
+│   │   ├── scripts
+│   │   └── outputs
+│   └── Task_2_Dashboard
+│       ├── powerbi_dashboard.pbix
+│       └── dashboard_screenshots
 │
 └── README.md
-
+```
 ---
 
 # 📈 Current Progress
