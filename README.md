@@ -23,7 +23,7 @@ During this internship, tasks are structured into progressive analytical stages:
 |------|------|
 | **Level 1** | Data Preparation & Exploratory Analysis |
 | **Level 2** | Statistical Modeling & Pattern Discovery |
-| **Level 3** | Machine Learning & Predictive Analytics |
+| **Level 3** | Machine Learning & Business Intelligence |
 
 Each level builds analytical depth while emphasizing **clean implementation, reproducibility, and clear interpretation of results.**
 
@@ -155,8 +155,6 @@ Purpose:
 
 To evaluate engagement correlation between user interaction metrics on social media posts.
 
----
-
 ### Tools Used
 
 `Python` · `Pandas` · `Scikit-learn` · `Matplotlib` · `Seaborn`
@@ -184,13 +182,6 @@ This task applies **unsupervised machine learning** to identify hidden patterns 
 
 These features represent **customer communication behavior across different time periods**, enabling meaningful segmentation.
 
-### Implementation Highlights
-
-- Automated clustering pipeline using **scikit-learn**
-- Feature scaling for distance-based algorithms
-- Elbow Method visualization for optimal cluster selection
-- Cluster visualization for interpretability
-
 ### Generated Outputs
 
 - Elbow Method Plot
@@ -203,9 +194,9 @@ These features represent **customer communication behavior across different time
 
 ---
 
-# 🧠 Level 3 – Machine Learning & Predictive Analytics
+# 🧠 Level 3 – Machine Learning & Business Intelligence
 
-Level 3 introduces predictive machine learning models designed to support **data-driven decision making**.
+Level 3 expands analysis toward **predictive modeling and business intelligence dashboards**.
 
 ---
 
@@ -223,36 +214,20 @@ This task builds **classification models to predict whether a customer is likely
 - Evaluated model performance using standard metrics
 - Performed **hyperparameter tuning using GridSearchCV**
 
----
-
 ### Models Implemented
 
-**Logistic Regression**
-
-Baseline classification model for churn prediction.
-
-**Decision Tree**
-
-Captures non-linear relationships between features.
-
-**Random Forest**
-
-Ensemble learning model improving prediction robustness and accuracy.
-
----
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
 
 ### Evaluation Metrics
 
 Models were evaluated using:
 
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-score**
-
-These metrics help evaluate performance for **imbalanced classification problems such as churn prediction.**
-
----
+- Accuracy
+- Precision
+- Recall
+- F1-score
 
 ### Generated Outputs
 
@@ -260,11 +235,73 @@ These metrics help evaluate performance for **imbalanced classification problems
 - Confusion matrix visualization
 - Model comparison chart
 
----
-
 ### Tools Used
 
 `Python` · `Pandas` · `Scikit-learn` · `Matplotlib` · `Seaborn`
+
+---
+
+## ✅ Task 2: Interactive Dashboard with Power BI
+
+This task focuses on transforming analytical insights into **interactive dashboards for business decision support**.
+
+Using **Power BI**, an interactive dashboard was developed to explore **customer behavior and churn patterns** within the telecom dataset.
+
+### Objectives Achieved
+
+- Imported and prepared the dataset in **Power BI**
+- Built interactive visualizations including:
+  - Bar charts
+  - Scatter plots
+  - Usage comparisons
+  - Geographic distribution
+- Implemented **filters and slicers** for interactive exploration
+- Designed a **business-friendly dashboard layout**
+- Published the dashboard for sharing and analysis
+
+### Key Dashboard Components
+
+The dashboard provides insights across multiple analytical dimensions:
+
+**Customer Overview**
+
+- Total Customers
+- Churn Customers
+- Churn Rate
+
+**Usage Behavior Analysis**
+
+- Average Day / Evening / Night Usage
+- Call volume comparisons
+
+**Customer Support Interaction**
+
+- Relationship between **customer service calls and churn risk**
+
+**International Usage Behavior**
+
+- International minutes vs charges comparison
+
+**Geographic Insights**
+
+- Customer distribution across states
+
+### Interactive Features
+
+The dashboard includes interactive filters allowing users to explore:
+
+- Customer location (`state`)
+- International plan status
+- Voice mail plan usage
+
+### Generated Outputs
+
+- Power BI Dashboard File (`.pbix`)
+- Dashboard screenshots for documentation
+
+### Tools Used
+
+`Power BI` · `Data Modeling` · `Interactive Visualization`
 
 ---
 
@@ -293,9 +330,13 @@ Codveda-Data-Analysis-Internship
 │ └── outputs
 │
 ├── Level_3_Advanced
-│ └── Task_1_Classification
-│ ├── scripts
-│ └── outputs
+│ ├── Task_1_Classification
+│ │ ├── scripts
+│ │ └── outputs
+│ │
+│ └── Task_2_Dashboard
+│ ├── powerbi_dashboard.pbix
+│ └── dashboard_screenshots
 │
 └── README.md
 
@@ -310,7 +351,7 @@ Codveda-Data-Analysis-Internship
 | Level 2 | Regression Analysis | ✅ Completed |
 | Level 2 | Customer Churn Clustering | ✅ Completed |
 | Level 3 | Customer Churn Classification | ✅ Completed |
-| Level 3 | Advanced Analytics Extensions | 🔜 Upcoming |
+| Level 3 | Power BI Dashboard | ✅ Completed |
 
 ---
 
@@ -320,4 +361,4 @@ This repository documents my internship journey at **Codveda Technologies**, hig
 
 The project demonstrates a progression from:
 
-**Data Preparation → Exploratory Analysis → Statistical Modeling → Machine Learning → Predictive Analytics**
+**Data Preparation → Exploratory Analysis → Statistical Modeling → Machine Learning → Business Intelligence Dashboards**
